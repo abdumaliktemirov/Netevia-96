@@ -1,12 +1,134 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #3B3E43;
+    margin-bottom: 1000px;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1216px;
     margin-right: auto;
     margin-left: auto;
 }
 
+
+/* Header */
+.header {
+    position: relative;
+    background: #3B3E43;
+}
+
+.header-shadow {
+    position: absolute;
+    content: "";
+    width: 1336.999px;
+    height: 979px;
+    border-radius: 1336.999px;
+    opacity: 0.2;
+    background: linear-gradient(90deg, #9EA0A3 0%, #F0F0F1 51.56%, #989A9D 100%);
+    filter: blur(99px);
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 0;
+}
+
+.header-items {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-item {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.header-button a {
+    cursor: pointer;
+    padding: 20px 50px;
+    gap: 10px;
+    border-radius: 60px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 148%;
+    letter-spacing: 0.28px;
+    text-transform: uppercase;
+    border: 2px solid #FFF;
+}
+
+/* main sections */
+
+.main .title {
+    margin: 0 auto;
+    color: #FFF;
+    margin-top: 98px;
+    font-size: 68px;
+    font-weight: 500;
+    line-height: 120%;
+    max-width: 668px;
+    text-align: center;
+}
+
+.main .text {
+    opacity: 0.8;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+    font-family: DM Sans;
+    margin: 10px 0 55px 0;
+}
+
+.main .image {
+    margin: 0 auto;
+    max-width: 794px;
+}
+
+.main .main-bottom {
+    gap: 15px;
+    display: flex;
+    margin-top: 143px;
+}
+
+.main-bottom .main-bottom__card {
+    gap: 30px;
+    display: flex;
+}
+
+.main-bottom .card-info__title {
+    font-size: 25px;
+    color: #72C7F0;
+    font-weight: 500;
+    line-height: 122%;
+    margin-bottom: 20px;
+}
+
+.main-bottom .card-info__text {
+    color: #FFF;
+    font-size: 14px;
+    max-width: 260px;
+    font-weight: 400;
+    line-height: 24px;
+}
