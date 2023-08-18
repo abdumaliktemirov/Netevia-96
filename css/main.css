@@ -132,3 +132,50 @@ body {
     font-weight: 400;
     line-height: 24px;
 }
+
+
+/* Footer */
+
+.footer-wrap {
+    padding: 70px 0 35px 0;
+}
+
+.footer-warp__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-top__nav {
+    gap: 32px;
+    display: flex;
+}
+
+.footer-top__nav a {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.footer-top__3 {
+    gap: 20px;
+    display: flex;
+}
+
+.footer-hreft {
+    margin: 21px 0 28px 0;
+}
+
+.footer-warp__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-warp__bottom span {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
